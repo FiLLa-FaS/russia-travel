@@ -1,0 +1,18 @@
+.place__url {
+  margin-top: 16px;
+  font-size: 75%;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  transition: opacity 0.2s;
+}
+
+.place__url:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 767px) {
+  .place__url {
+    display: none;
+  }
+}

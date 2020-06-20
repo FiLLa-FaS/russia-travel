@@ -1,0 +1,8 @@
+@import url("_big/wrapper_big.css");
+@import url("_medium/wrapper_medium.css");
+@import url("_small/wrapper_small.css");
+
+.wrapper {
+  margin: 0 auto;
+  min-width: 288px;
+}
